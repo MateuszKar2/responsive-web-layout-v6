@@ -640,3 +640,12 @@
   visibility: hidden;
   pointer-events: none;
 }
+
+.label__box {
+  width: 448px;
+  height: 342px;
+}
+
+.label {
+  color: red;
+}
