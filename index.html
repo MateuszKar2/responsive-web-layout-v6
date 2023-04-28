@@ -494,7 +494,7 @@
             <div class="modal-box">
                 <button type="button" class="close-btn" data-modal-close>X</button>
                 <form>
-                    <div>Zostaw swoje dane w formularzu poniżej</div>
+                    <div class="modal__title">Zostaw swoje dane w formularzu poniżej</div>
                     <label>
                         <p class="modal__data">Imie</p>
                         <input type="" name="imie" />
@@ -508,8 +508,8 @@
                         <input type="email" name="email" />
                     </label>
                     <label>
-                        <p class="modal__data">Komentarz</p>
-                        <textarea name="komentarz" rows="5" 
+                        <p class="modal__data modal__text">Komentarz</p>
+                        <textarea class="modal__textarea" name="komentarz" 
                         placeholder="wprowadź tekst"></textarea>
                     </label>
                     <input class="modal__data-checkbox" type="checkbox" name="checkbox" checked />
@@ -518,7 +518,9 @@
                     <a class="modal__data-approval-blue-text">Politykę prywatności</a></p>
                     </label>
                     <label>
-                     <button type="submit">Wyślij</button>
+                        <div class="modal__submit">
+                     <button class="modal__submit-title" type="submit">Wyślij</button>
+                        </div>
                     </label>
                 </form>
             </div>
