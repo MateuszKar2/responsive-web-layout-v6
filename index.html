@@ -493,25 +493,33 @@
          <div class="backdrop is-hidden" data-modal>
             <div class="modal-box">
                 <button type="button" class="close-btn" data-modal-close>X</button>
-                <form name="Zostaw swoje dane w formularzu poniżej">
+                <form>
+                    <div>Zostaw swoje dane w formularzu poniżej</div>
                     <label>
-                        Imie
+                        <p class="modal__data">Imie</p>
                         <input type="" name="imie" />
                     </label>
                     <label>
-                        Telefon
+                        <p class="modal__data">Telefon</p>
                         <input type="" name="telefon" />
                     </label>
                     <label>
-                        Email
+                        <p class="modal__data">Email</p>
                         <input type="email" name="email" />
                     </label>
                     <label>
-                        Komentarz
+                        <p class="modal__data">Komentarz</p>
                         <textarea name="komentarz" rows="5" 
                         placeholder="wprowadź tekst"></textarea>
                     </label>
-                    <button type="submit">Wyślij</button>
+                    <input class="modal__data-checkbox" type="checkbox" name="checkbox" checked />
+                    <p class="modal__data-approval">
+                    Oświadczam iź akceptuje <a class="modal__data-approval-blue-text">Regulamin</a> i 
+                    <a class="modal__data-approval-blue-text">Politykę prywatności</a></p>
+                    </label>
+                    <label>
+                     <button type="submit">Wyślij</button>
+                    </label>
                 </form>
             </div>
          </div>
