@@ -670,15 +670,6 @@ label {
   border: 1px solid rgba(33, 33, 33, 0.2); 
  }
 
- .modal__input:hover {
-  border-color: #2196f3;
- }
-
-.modal__input:checked {
-  border-color: #2196f3;
-}
-
-
 .modal__data {
   margin: 0;
   padding-bottom: 4px;
@@ -689,8 +680,6 @@ label {
   letter-spacing: 0.01em;
   line-height: 14px;
 }
-
- 
 
 .modal__data-checkbox {
   width: 16px;
@@ -713,9 +702,6 @@ label {
   
 }
 
-.modal__data-approval-blue-text {
-  color: #2196f3;
-}
 
 .modal__title {
   height: 23px;
@@ -759,6 +745,10 @@ label {
 
 .modal__icon-single {
   position: absolute;
+  height: 40px;
+  width: 40px;
   padding-left: 15px;
-  padding-top: 12px;
+  padding-top: 13px;
 }
+
+
