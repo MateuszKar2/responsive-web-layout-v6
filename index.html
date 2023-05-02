@@ -491,10 +491,10 @@
                     <h3 class="footer__right-title">zapisz się do newslettera</h3>
                     <div class="footer__right-position">
                     <label>
-                        <p class="footer__data">E-mail</p> 
+                        <input class="footer__data" type="email" name="email" id="email" placeholder="E-mail" required/>
                     </label>
                     <label>
-                        <button class="footer__submit-title" type="submit">Zapisz się</button>
+                        <button class="footer__submit-title" type="submit">Zapisz się 
                         <svg class="footer__icon-bird">
                             <use
                             xlink:href="./images/icons.svg#icon-bird"
@@ -502,12 +502,13 @@
                             height="24"
                             ></use>
                         </svg>
+                        </button>
                     </label>
                     </div>
                  </div>
              </div>
-            </div>
-         </footer>  
+            </div> 
+         </footer>
          <div class="backdrop is-hidden" data-modal>
             <div class="modal-box">
                 <button type="button" class="close-btn" data-modal-close>X</button>
@@ -562,14 +563,13 @@
                         <div class="modal__label">
                         <p class="modal__data">Komentarz</p> 
                         <textarea class="modal__input-text" name="comment" 
-                        placeholder="wprowadź tekst"></textarea>
+                        placeholder="Wprowadź tekst"></textarea>
                         </div>
                     </label>
                     <div class="modal__data-position"> 
                     <input class="modal__data-checkbox" type="checkbox" name="checkbox" checked />
                     <p class="modal__data-approval">
-                    Oświadczam iź akceptuje <a href ="#" class="color__blue">Regulamin</a> i 
-                    <a href="#" class="color__blue">Politykę prywatności</a></p>
+                    Oświadczam iź akceptuje <a>Regulamin</a> i <a>Politykę prywatności</a></p>
                     </div>
                     </label>
                     <label>
