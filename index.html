@@ -486,7 +486,25 @@
                             ></use>
                         </svg>                 
                     </div>
-                </div>
+                 </div>
+                 <div class="footer__right">
+                    <h3 class="footer__right-title">zapisz się do newslettera</h3>
+                    <div class="footer__right-position">
+                    <label>
+                        <p class="footer__data">E-mail</p> 
+                    </label>
+                    <label>
+                        <button class="footer__submit-title" type="submit">Zapisz się</button>
+                        <svg class="footer__icon-bird">
+                            <use
+                            xlink:href="./images/icons.svg#icon-bird"
+                            width="24";
+                            height="24"
+                            ></use>
+                        </svg>
+                    </label>
+                    </div>
+                 </div>
              </div>
             </div>
          </footer>  
@@ -496,6 +514,7 @@
                 <form>
                     <div class="modal__title">Zostaw swoje dane w formularzu poniżej</div>
                     <label>
+                        <div class="modal__label">
                         <p class="modal__data">Imie</p>
                         <div class="modal__position">
                         <svg class="modal__icon-single">
@@ -507,8 +526,10 @@
                         </svg>
                         <input class="modal__input" type="name" name="name" id="name" required/>
                         </div>
+                        </div>
                     </label>
                     <label>
+                        <div class="modal__label">
                         <p class="modal__data">Telefon</p>
                         <div class="modal__position"> 
                         <svg class="modal__icon-single">
@@ -520,8 +541,10 @@
                             </svg>
                             <input class="modal__input" type="tel" name="phone" id="phone" />
                         </div>
+                        </div>
                     </label>
                     <label>
+                        <div class="modal__label">
                         <p class="modal__data">Email</p>
                         <div class="modal__position"> 
                             <svg class="modal__icon-single">
@@ -533,11 +556,14 @@
                                 </svg>
                                 <input class="modal__input" type="email" name="email" id="email" required/>
                             </div>
+                        </div>
                     </label>
                     <label>
+                        <div class="modal__label">
                         <p class="modal__data">Komentarz</p> 
                         <textarea class="modal__input-text" name="comment" 
                         placeholder="wprowadź tekst"></textarea>
+                        </div>
                     </label>
                     <div class="modal__data-position"> 
                     <input class="modal__data-checkbox" type="checkbox" name="checkbox" checked />
