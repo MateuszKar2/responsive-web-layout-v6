@@ -32,11 +32,22 @@
 
 🔄 Comparison with Version v5
 
-Feature	                        v5	              v6(current)
-CSS Preprocessor	           ❌ None	              ✅ SASS
-CSS Methodology	             ❌ None	              ✅ BEM
-Layout	                     ✅ Flexbox	            ✅ Flexbox + advanced media queries
-Interactivity	               ⚠️ Basic	            ✅ Improved (e.g., mobile nav menu)
-Code Organization            ⚠️ Basic	              ✅ Modular and clean
-Responsiveness               ⚠️ Limited	            ✅ Fully responsive
-Accessibility (a11y)	       ⚠️ Minimal	            ✅ Improved screen reader support
+Feature	                        v5	              
+CSS Preprocessor	               ❌ None	             
+CSS Methodology	               ❌ None	             
+Layout	                        ✅ Flexbox	           
+Interactivity	                  ⚠️ Basic	            
+Code Organization                ⚠️ Basic	              
+Responsiveness                   ⚠️ Limited	            
+Accessibility (a11y)	            ⚠️ Minimal	            
+
+
+
+Feature	                      v6(current)
+CSS Preprocessor	           	    ✅ SASS
+CSS Methodology	                ✅ BEM
+Layout	                   	    ✅ Flexbox + advanced media queries
+Interactivity	                   ✅ Improved (e.g., mobile nav menu)
+Code Organization            	    ✅ Modular and clean
+Responsiveness              	    ✅ Fully responsive
+Accessibility (a11y)	       	    ✅ Improved screen reader support
